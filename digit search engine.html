@@ -1,0 +1,41 @@
+<html>
+
+<head>
+	<title>Digit Search Engine</title>
+	<link rel = "stylesheet", type = "text/css", href = "style.css">
+	<script>
+		function f1()
+		{
+			if(document.form2.text1.value == "")
+			{
+				alert("Search Bar cannot be empty !!!!");
+				form2.text1.focus();
+			}
+			else if(document.form2.text1.value == "sir of mobs")
+			{
+				window.location = "first.html";
+			}
+			else if(document.form2.text1.value == "sir")
+			{
+				window.location = "first.html";
+			}
+			else
+				window.location = "index.html";
+		}
+	</script>
+</head>
+
+<body class = "bodysearch">
+	<form name = "form2", method = "POST">
+	<!--<p class = "attribs"><u>E-mail</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Images</u></p>--><br><br><br><br><br><br><br><br>
+	<center><img src = "digits-1.png", title = "digits search engine"></center><br>
+	<!--<center><font class = "search">DIGIT</font><strong></strong></center>-->
+	<center><input class = "text", name = "text1", type = "text", placeholder = "Search Here", id = "search-text-input"></textarea></center><br>
+	<center><input type = "button", value = "Search it", class = "button", onclick = "f1()"></center>
+	<br><br><br><br><br><br><br><br><br><br><hr>
+	<em><strong style = "margin-left: 1160px;">Work done by Digits®</strong></em><br><br>
+	<em><strong style = "margin-left: 1270px;">India</strong></em>
+	
+</body>
+
+</html>
